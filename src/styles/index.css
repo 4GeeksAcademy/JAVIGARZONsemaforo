@@ -9,3 +9,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 400px;
+    background-color: black;
+    border-radius: 25px;
+    background-color: #343a40;
+    color: white;
+    padding: 25px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+    position: static;
+    overflow: hidden;
+
+}
+
+.rojo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.amarillo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.verde {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+
+}
+
+.encendido {
+
+    box-shadow: 5px 10px 20px;
+}

@@ -11,7 +11,7 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('semaforo')).render(
   <React.StrictMode>
     <Home/>
   </React.StrictMode>,
